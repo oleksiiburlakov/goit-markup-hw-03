@@ -25,9 +25,12 @@
   a {
       text-decoration: none;
   }
-  .img{
-    display: block;
-  }
+  
+.img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
 
   .container {
       max-width: 1158px;
@@ -146,28 +149,22 @@
       border: none;
   }
 
-  .visually-hidden{
-    position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        padding: 0;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-  }
+  
   .service {
     padding: 120px 0 120px;
     flex-basis: calc((100% - 3 * 24px) / 4)
-
-
   }
-   .visually-hidden{
-  service-title
-}
-
-
+  .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+  }
   .container {
       max-width: 1158px;
       padding: 0 15px;
