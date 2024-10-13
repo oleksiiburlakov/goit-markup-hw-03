@@ -25,13 +25,16 @@
   a {
       text-decoration: none;
   }
+  .img{
+    display: block
+  }
 
   .container {
       max-width: 1158px;
       padding: 0 15px;
       margin: 0 auto;
   }
-
+ .visually-hidden
   .page-header {
       border-bottom: 1px solid #e7e9fc;
   }
@@ -176,6 +179,7 @@
 
   .service-name {
     flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
     margin-bottom: 8px;
       text-transform: capitalize;
       font-weight: 500;
