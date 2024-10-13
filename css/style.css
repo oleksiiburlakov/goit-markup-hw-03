@@ -166,7 +166,6 @@
   }
 
   .service-list {
-    border-radius: 0px 0px 4px 4px;
       align-items: center;
       display: flex;
       gap: 24px;
@@ -228,12 +227,12 @@ margin-bottom: 72px;
   }
 
   .team-img {
+    border-radius: 0px 0px 4px 4px;
     display: block;
       background-color: #FFFFFF
   }
 
   .team-img-name {
-    border-radius: 0px 0px 4px 4px;
     text-align: center;
     margin-bottom: 8px;
       padding: 72px;
