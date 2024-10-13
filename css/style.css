@@ -26,7 +26,7 @@
       text-decoration: none;
   }
   .img{
-    display: block
+    display: block;
   }
 
   .container {
@@ -36,7 +36,7 @@
   }
  .visually-hidden
   .page-header {
-      border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
   }
 
   .header-container {
