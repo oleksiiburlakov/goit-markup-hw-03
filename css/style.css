@@ -151,24 +151,26 @@ img {
       border-radius: 4px;
       border: none;
   }
+.visually-hidden {
 
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
   
   .service {
     padding: 120px 0 120px;
     flex-basis: calc((100% - 3 * 24px) / 4)
   }
-  .visually-hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            border: 0;
-            padding: 0;
-            white-space: nowrap;
-            clip-path: inset(100%);
-            clip: rect(0 0 0 0);
-            overflow: hidden;     
-  }
+  
   .container {
     display: flex;
       max-width: 1158px;
@@ -271,6 +273,7 @@ margin-bottom: 72px;
   .portfolio {
     padding: 120px 0 120px 0;
       background-color: #FFFFFF;
+      
   }
 
   .container {
@@ -281,6 +284,7 @@ margin-bottom: 72px;
   }
 
   .portfolio-list {
+    width: calc((100% - 48px) / 3);
       display: flex;
       flex-wrap: wrap;
       column-gap: 24px;
