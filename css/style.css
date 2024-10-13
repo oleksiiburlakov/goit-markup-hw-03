@@ -144,12 +144,13 @@
       border: none;
   }
 
-  .service {
+  .services {
     padding: 120px 0 120px;
     flex-basis: calc((100% - 3 * 24px) / 4)
 
 
   }
+
 
   .container {
       max-width: 1158px;
@@ -317,8 +318,6 @@ margin-bottom: 72px;
   }
 
   .logo-footer-logo-text {
-display: inline-block;
-    margin-bottom: 16px;
     padding: 100px 0 100px;
       margin-top: 140px;
       max-width: 264px;
@@ -331,6 +330,8 @@ display: inline-block;
   .logo {}
 
   .footer-logo {
+display: inline-block;
+margin-bottom: 16px;
   }
 
   .logo-part {}
