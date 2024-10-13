@@ -201,7 +201,6 @@
       background-color: #F4F4FD
   }
   .team-img-name-team-img-name-text{
-    border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
   }
 
@@ -272,7 +271,8 @@ margin-bottom: 72px;
   .portfolio-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 24px;
+      column-gap: 24px;
+    row-gap: 48px;
   }
   .portfolio-img-name-portfolio-img-name-text{
     padding: 32px 16px;
@@ -282,7 +282,7 @@ margin-bottom: 72px;
   }
 
   .portfolio-title {
-    margin-bottom: 72px;
+    margin-bottom: 8px;
     padding: 120px 0 120px 0;
       text-transform: capitalize;
       font-weight: 700;
