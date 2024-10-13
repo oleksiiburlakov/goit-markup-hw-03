@@ -117,11 +117,13 @@ img {
   .button {
     padding: 188px 0 188px;
       max width: 1440px;
-      height: 600px;
       background-color: #2e2f42;
   }
 
   .button-title {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
       font-weight: 700;
       font-size: 56px;
       line-height: 1.07;
@@ -132,6 +134,8 @@ img {
   }
 
     .type-button {
+        margin-left: auto;
+        margin-right: auto;
     display: block;
       background-color: #4D5AE5;
       cursor: pointer;
@@ -166,14 +170,16 @@ img {
   }
   
   .service-list {
-      align-items: center;
       display: flex;
       gap: 24px;
 
   }
+  .service-item{
+    flex-basis: calc((100% - 72px) / 4);
+
+  }
 
   .service-name {
-    flex-basis: calc((100% - 72px) / 4);
     margin-bottom: 8px;
       text-transform: capitalize;
       font-weight: 500;
@@ -184,8 +190,6 @@ img {
   }
 
   .service-name-text {
-    padding: 120px 0 120px;
-      text-transform: capitalize;
       font-weight: 400;
       font-size: 16px;
       line-height: 1.5;
@@ -210,7 +214,6 @@ img {
 
   .team-title {
 margin-bottom: 72px;
-    padding: 120px 0 120px;
       text-transform: capitalize;
       font-weight: 700;
       font-size: 36px;
@@ -230,7 +233,6 @@ margin-bottom: 72px;
   .team-img-name {
     text-align: center;
     margin-bottom: 8px;
-      padding: 72px;
       text-transform: capitalize;
       font-weight: 500;
       font-size: 20px;
@@ -268,12 +270,10 @@ margin-bottom: 72px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
   }
 
   .portfolio-title {
     margin-bottom: 72px;
-    padding: 120px 0 120px 0;
       text-transform: capitalize;
       font-weight: 700;
       font-size: 36px;
@@ -323,7 +323,6 @@ margin-bottom: 72px;
   }
 
   .logo-footer-logo-text {
-      margin-top: 140px;
       max-width: 264px;
       font-weight: 400;
       font-size: 16px;
