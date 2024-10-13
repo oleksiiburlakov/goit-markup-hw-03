@@ -236,6 +236,8 @@ margin-bottom: 72px;
   }
 
   .team-img-name {
+    text-align: center;
+    margin-bottom: 8px;
       padding: 72px;
       text-transform: capitalize;
       font-weight: 500;
