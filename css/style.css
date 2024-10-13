@@ -150,6 +150,9 @@
 
 
   }
+   .visually-hidden{
+  service-title
+}
 
 
   .container {
@@ -159,7 +162,7 @@
 
   }
   
-    .visually-hidden{
+   {
     
     }
   
@@ -196,6 +199,10 @@
     padding: 120px 0;
     border-radius: 0px 0px 4px 4px;
       background-color: #F4F4FD
+  }
+  .team-img-name-team-img-name-text{
+    border-radius: 0px 0px 4px 4px;
+    padding: 32px 0;
   }
 
   .container {
