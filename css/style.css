@@ -109,6 +109,7 @@
 
 
   .button {
+    padding: 188px 0 188px;
       max width: 1440px;
       height: 600px;
       background-color: #2e2f42;
@@ -119,7 +120,6 @@
       margin: 0 auto;
   }
   .button-title {
-    padding: 188px 0 188px;
       font-weight: 700;
       font-size: 56px;
       line-height: 1.07;
@@ -144,7 +144,7 @@
       border: none;
   }
 
-  .services {
+  .service {
     padding: 120px 0 120px;
     flex-basis: calc((100% - 3 * 24px) / 4)
 
@@ -172,6 +172,7 @@
   }
 
   .service-name {
+    flex-basis: calc((100% - 72px) / 4);
     margin-bottom: 8px;
       text-transform: capitalize;
       font-weight: 500;
@@ -223,10 +224,8 @@ margin-bottom: 72px;
   }
 
   .team-img {
+    display: block;
       background-color: #FFFFFF
-  }
-  .img{
-    display: block
   }
 
   .team-img-name {
@@ -314,11 +313,11 @@ margin-bottom: 72px;
   }
 
   .page-footer {
+    padding: 100px 0 100px;
       background-color: #2e2f42;
   }
 
   .logo-footer-logo-text {
-    padding: 100px 0 100px;
       margin-top: 140px;
       max-width: 264px;
       font-weight: 400;
