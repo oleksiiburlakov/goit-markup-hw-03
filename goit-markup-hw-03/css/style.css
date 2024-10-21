@@ -25,15 +25,21 @@
   a {
       text-decoration: none;
   }
+  
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 
   .container {
       max-width: 1158px;
       padding: 0 15px;
       margin: 0 auto;
   }
-
   .page-header {
-      border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
   }
 
   .header-container {
@@ -109,16 +115,15 @@
 
 
   .button {
+    padding: 188px 0 188px;
       max width: 1440px;
-      height: 600px;
       background-color: #2e2f42;
   }
-  .container {
-      max-width: 1158px;
-      padding: 0 15px;
-      margin: 0 auto;
-  }
+
   .button-title {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
       font-weight: 700;
       font-size: 56px;
       line-height: 1.07;
@@ -128,7 +133,10 @@
       max-width: 496px;
   }
 
-  .type-button {
+    .type-button {
+        margin-left: auto;
+        margin-right: auto;
+    display: block;
       background-color: #4D5AE5;
       cursor: pointer;
       font-weight: 500;
@@ -137,32 +145,42 @@
       letter-spacing: 0.04em;
       color: #fff;
       min-width: 169px;
-      height: 56;
+      height: 56px;
       border-radius: 4px;
       border: none;
   }
+.visually-hidden {
 
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
+  
   .service {
-      flex-basis: calc((100% - 3 * 24) / 4);
-
-
+    padding: 120px 0 120px;
+    flex-basis: calc((100% - 3 * 24px) / 4)
   }
-
-  .container {
-      max-width: 1158px;
-      padding: 0 15px;
-      margin: 0 auto;
-
-  }
-
+  
   .service-list {
-      align-items: center;
       display: flex;
       gap: 24px;
 
   }
+  .service-item{
+    flex-basis: calc((100% - 72px) / 4);
+
+  }
 
   .service-name {
+    margin-bottom: 8px;
       text-transform: capitalize;
       font-weight: 500;
       font-size: 20px;
@@ -172,7 +190,6 @@
   }
 
   .service-name-text {
-      text-transform: capitalize;
       font-weight: 400;
       font-size: 16px;
       line-height: 1.5;
@@ -181,15 +198,13 @@
   }
 
   .team {
+    padding: 120px 0;
       background-color: #F4F4FD
   }
-
-  .container {
-      max-width: 1158px;
-      padding: 0 15px;
-      margin: 0 auto;
-
+  .team-img-name-team-img-name-text{
+    padding: 32px 0;
   }
+
 
   .team-list {
       align-items: center;
@@ -198,8 +213,7 @@
   }
 
   .team-title {
-
-      padding: 120px;
+margin-bottom: 72px;
       text-transform: capitalize;
       font-weight: 700;
       font-size: 36px;
@@ -210,11 +224,15 @@
   }
 
   .team-img {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    display: block;
       background-color: #FFFFFF
   }
 
   .team-img-name {
-      padding: 72px;
+    text-align: center;
+    margin-bottom: 8px;
       text-transform: capitalize;
       font-weight: 500;
       font-size: 20px;
@@ -235,23 +253,27 @@
 
 
   .portfolio {
+    padding: 120px 0 120px 0;
       background-color: #FFFFFF;
+      
   }
 
-  .container {
-      max-width: 1158px;
-      padding: 0 15px;
-      margin: 0 auto;
-  }
+
 
   .portfolio-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 24px;
+      column-gap: 24px;
+    row-gap: 48px;
+  }
+  .portfolio-img-name-portfolio-img-name-text{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
   }
 
   .portfolio-title {
-      padding: 120px;
+    margin-bottom: 72px;
       text-transform: capitalize;
       font-weight: 700;
       font-size: 36px;
@@ -261,16 +283,18 @@
       color: #2e2f42;
   }
 
-  .portfolio-img {}
+  .portfolio-img {
+    width: calc((100% - 48px) / 3);
+  }
 
   .portfolio-img-name {
+    margin-bottom: 8px;
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
       color: #2e2f42;
   }
-
   .portfolio-img-name-text {
       font-weight: 400;
       font-size: 16px;
@@ -290,18 +314,14 @@
 
   footer {}
 
-  .container {
-      max-width: 1158px;
-      padding: 0 15px;
-      margin: 0 auto;
-  }
+
 
   .page-footer {
+    padding: 100px 0 100px;
       background-color: #2e2f42;
   }
 
   .logo-footer-logo-text {
-      margin-top: 140px;
       max-width: 264px;
       font-weight: 400;
       font-size: 16px;
@@ -311,6 +331,9 @@
   }
   .logo {}
 
-  .footer-logo {}
+  .footer-logo {
+display: inline-block;
+margin-bottom: 16px;
+  }
 
   .logo-part {}
